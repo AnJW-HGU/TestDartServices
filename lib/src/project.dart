@@ -83,6 +83,7 @@ Set<String> supportedFlutterPackages({required bool devMode}) => {
       'flutter_riverpod',
       'hooks_riverpod',
       'url_launcher',
+      'matcher',
       if (devMode) ...[
         'english_words',
         'firebase_analytics',
@@ -94,6 +95,11 @@ Set<String> supportedFlutterPackages({required bool devMode}) => {
         'flame_forge2d',
         'flame_splash_screen',
         'flame_tiled',
+        'test',
+        'test_api',
+        'flutter_driver',
+        'flutter_test',
+        'integration_test'
       ],
     };
 
